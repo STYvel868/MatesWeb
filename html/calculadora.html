@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Números</title>
+    <link rel="stylesheet" href="../css/calculadora.css">
+</head>
+<body>
+    <div class="nav-bar">
+        <ul id="bar">
+            <li><a href="index.html">Conversor</a></li>
+            <li><a href="calculadora.html">Calculadora</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <h1>INTRODUCE UN CÁLCULO</h1>
+        <input type="number" id="op1" placeholder="0">
+        <select id="operante">
+            <option value="suma">+</option>
+            <option value="resta">-</option>
+            <option value="multiplicacion">x</option>
+            <option value="division">÷</option>
+        </select>
+        <input type="number" id="op2" placeholder="0">
+        <button id="calculo">Calcular</button>
+        <p id="resultado"></p>
+    </div>
+    <script src="calculadora.js"></script>
+</body>
+</html>

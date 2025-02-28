@@ -1,0 +1,73 @@
+body {
+    background-image: url("../img/imgbg.jpg");
+    background-size: cover;
+    background-attachment: fixed;    
+    height: 85vh;
+}
+
+.nav-bar {
+    padding: 15px;
+    text-align: center;
+}
+
+.nav-bar ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar li {
+    margin: 0 20px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: white; 
+    font-family: Calibri;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+/*Cuando pones el cursor encima*/
+.nav-bar a:hover {
+    color: black;
+    background-color: white; /* Invertir colores al pasar el mouse */
+    border-radius: 5px;
+}
+
+.container {
+    height: 100%;
+    color: white;
+    font-family: Calibri;
+    text-align: center;
+    font-size:45px;
+    align-content: center;
+    justify-content: center; 
+    flex-direction: column;
+}
+
+input, select, button {
+    background-color: black; 
+    color: white; 
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 20px;
+    border: 3px solid white; 
+    padding: 8px; 
+    border-radius: 15px;
+    width: 150px;
+}
+
+/*Cuando seleccionas*/
+input:focus, select:focus, button:focus {
+    box-shadow: 0 0 10px white; /* Efecto de brillo */
+}
+
+#resultado {
+    font-weight: bold;
+}
+
+
+

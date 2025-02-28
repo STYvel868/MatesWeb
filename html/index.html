@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Números</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <div class="nav-bar">
+        <ul id="bar">
+            <li><a href="index.html">Conversor</a></li>
+            <li><a href="calculadora.html">Calculadora</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <h1>INTRODUCE UN NÚMERO</h1>
+        <input type="number" id="numero" placeholder="0">
+        <select id="tipo">
+            <option value="binario">Binario</option>
+            <option value="octal">Octal</option>
+            <option value="hexadecimal">Hexadecimal</option>
+            <option value="romano">Romano</option>
+        </select>
+        <button id="convertirNum">Convertir</button>
+        <p id="resultado"></p>
+    </div>
+    <script src="conversion.js"></script>
+</body>
+</html>
